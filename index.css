@@ -372,12 +372,39 @@ footer .bottom-menu {
   display: flex;
 }
 
+footer .additional-pages {
+  margin-top: 40px;
+}
+
+footer nav ul {
+  list-style-type: none;
+}
+
+footer nav ul li a {
+  font-family: "Vollkorn", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #e3f2fd;
+}
+
+footer nav ul li a:hover {
+  color: #e1b713;
+}
+
+footer .additional-pages p {
+  font-family: "Vollkorn", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #e1b713;
+}
+
 /*RESPONSIVE MODE*/
 
 @media screen and (max-width: 720px) {
-  
   /*HEADER*/
-  
+
   header {
     display: flex;
     justify-content: flex-end;
